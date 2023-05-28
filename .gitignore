@@ -11,4 +11,5 @@ terraform.tfstate.backup
 .vscode/*
 **/derby.log
 **/metastore_db/*
-.env
+.venv
+.venv/*
