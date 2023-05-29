@@ -10,8 +10,8 @@ jobs:
         id: setup-python
         uses: actions/setup-python@v2
         with:
-          python-version: "3.7"
-          architecture: x64
+          python-version: "3.8"
+          #architecture: x64
       - name: Set up AWS SDK
         uses: aws-actions/configure-aws-credentials@v1
         with:
